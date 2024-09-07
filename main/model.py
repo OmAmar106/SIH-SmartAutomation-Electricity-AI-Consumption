@@ -6,13 +6,14 @@ from datetime import datetime,timedelta
 from dateutil.relativedelta import relativedelta
 import os
 import platform
-import plotly.io as pio
+import plotly.io as plo
+import plotly.express as px
+from plotly.io import to_image
 
 cur = os.path.dirname(os.path.realpath(__file__))
 delhi_file_path =  cur+'/static/datasets/delhi.csv'
 delhi_peak_file_path = cur+'/static/datasets/delhi_peak.csv'
 def model1(val):
-    print("Current Working Directory:", os.getcwd())
     delhi = pd.read_csv(delhi_file_path)
     delhi['Month'] = pd.to_datetime(delhi['Month'])
     delhi.sort_values('Month', inplace=True)
@@ -101,6 +102,12 @@ def model3():
         avg_temp_today = weather_data_today['tavg'].mean()
     return [current_month_peak,current_month_forecast,avg_temp_today]
 
+
+def model4(val):
+    _, img1 = model1(val)
+    _, img2 = model2(val)
+    img1.write_image(cur+'/static/images/'+str(val)+'file1.png',format='png',engine='kaleido')
+    img2.write_image(cur+'/static/images/'+str(val)+'file2.png',format='png',engine='kaleido')
 # forecast1, fig1 = model1(5)
 # forecast2, fig2 = model2(5)
 

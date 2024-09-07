@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width" />
   <meta name="description" content="Delhi Electricity Prediction" />
   <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet"
@@ -44,7 +43,7 @@
 
           <ul class="navbar-nav flex-col" id="sideNavbar">
             <li class="nav-item">
-              <a class="nav-link active" href="/dashbord">
+              <a class="nav-link" href="/dashbord">
                 <i data-feather="home" class="w-4 h-4 mr-2"></i>
                 Dashboard
               </a>
@@ -53,7 +52,7 @@
               <div class="navbar-heading">Pages</div>
             </li>
             <li class="nav-item">
-              <a class="nav-link collapsed" href="/model" data-bs-toggle="collapse" data-bs-target="#navPages"
+              <a class="nav-link active collapsed" href="/model" data-bs-toggle="collapse" data-bs-target="#navPages"
                 aria-expanded="false" aria-controls="navPages">
                 <i data-feather="layers" class="w-4 h-4 mr-2"></i>
                 Electricity Model
@@ -304,167 +303,20 @@
           </nav>
         </div>
         <!-- end of navbar -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div class="bg-indigo-600 px-8 pt-10 lg:pt-14 pb-16 flex justify-between items-center mb-3">
 
 
           <h1 class="text-xl text-white">
             Delhi Electricity Consumption Predictor
           </h1>
-          <a href="#"
+          <!-- <a href="#"
             class="btn bg-white text-gray-800 border-gray-600 hover:bg-gray-100 hover:text-gray-800 hover:border-gray-200 active:bg-gray-100 active:text-gray-800 active:border-gray-200 focus:outline-none focus:ring-4 focus:ring-indigo-300">
-            Create New Blog
-          </a>
+          </a> -->
         </div>
-        <div class="-mt-12 mx-6 mb-6 grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 xl:grid-cols-4">
-          <!-- card -->
-          <div class="card shadow">
-            <!-- card body -->
-            <div class="card-body">
-              <!-- content -->
-              <div class="flex justify-between items-center">
-                <h4>{{month}}'s Expected Peak</h4>
-                <div
-                  class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="briefcase"></i>
-                </div>
-              </div>
-              <div class="mt-4 flex flex-col gap-0 text-base">
-                <h2 class="text-xl font-bold">{{ cur_peak }}</h2>
-                <!-- <div>
-                  <span>2</span>
-                  <span class="text-gray-500">Completed</span>
-                </div> -->
-              </div>
-            </div>
-          </div>
-          <!-- card -->
-          <div class="card shadow">
-            <!-- card boduy -->
-            <div class="card-body">
-              <!-- content -->
-              <div class="flex justify-between items-center">
-                <h4>{{month}}'s Forecast</h4>
-                <div
-                  class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="list"></i>
-                </div>
-              </div>
-              <div class="mt-4 flex flex-col gap-0 text-base">
-                <h2 class="text-xl font-bold">{{cur_forec}}</h2>
-                <div>
-                  <!-- <span>28</span>
-                  <span class="text-gray-500">Completed</span> -->
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- card -->
-          <div class="card shadow">
-            <!-- card body -->
-            <div class="card-body">
-              <!-- content -->
-              <div class="flex justify-between items-center">
-                <h4>Average Temperature</h4>
-                <div
-                  class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="users"></i>
-                </div>
-              </div>
-              <div class="mt-4 flex flex-col gap-0 text-base">
-                <h2 class="text-xl font-bold">{{ avg_temp }}&deg; C</h2>
-                <!-- <div>
-                  <span>1</span>
-                  <span class="text-gray-500">Completed</span>
-                </div> -->
-              </div>
-            </div>
-          </div>
-          <!-- card -->
-          <div class="card shadow">
-            <!-- card body -->
-            <div class="card-body">
-              <!-- content -->
-              <div class="flex justify-between items-center">
-                <h4>Today's Date</h4>
-                <div
-                  class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="target"></i>
-                </div>
-              </div>
-              <div class="mt-4 flex flex-col gap-0 text-base">
-                <h2 class="text-xl font-bold">{{date}}</h2>
-                <!-- <div>
-                  <span class="text-green-600">5%</span>
-                  <span class="text-gray-500">Completed</span>
-                </div> -->
-              </div>
-            </div>
-
-          </div>
+        <div class="flex w-full h-auto">
+            <img src="/static/images/{{val}}file1.png" style="width:50%;height:50%;">
+            <img src="/static/images/{{val}}file2.png" style="width:50%;height:50%;">
         </div>
-        <br><br>
-        <footer class="bg-gray-700 text-gray-100 py-6">
-          <div class="container mx-auto px-4">
-            <div class="flex flex-col items-center">
-              <!-- Title -->
-              <div class="mb-6">
-                <h3 class="text-2xl font-bold text-gray-100">Interested in our DataSets?</h3>
-              </div>
-              
-              <!-- List of datasets -->
-              <div class="flex flex-wrap justify-center gap-6">
-                <!-- Dataset 1 -->
-                <div class="flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-md space-y-4 mb-8">
-                  <h4 class="text-lg font-semibold text-white">
-                    Delhi Peak Electricity Consumption Dataset
-                  </h4>
-                  <a href="/static/Datasets/delhi_peak.csv" download>
-                    <button class="transition duration-300 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg flex items-center space-x-2 mt-4">
-                      <span>Download</span>
-                      <i class='bx bx-down-arrow-alt text-xl'></i>
-                    </button>
-                  </a>
-                </div>
-        
-                <!-- Dataset 2 -->
-                <div class="flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-md space-y-4 mb-8">
-                  <h4 class="text-lg font-semibold text-white">
-                    Delhi Average Electricity Consumption Dataset
-                  </h4>
-                  <a href="/static/Datasets/delhi.csv" download>
-                    <button class="transition duration-300 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg flex items-center space-x-2 mt-4">
-                      <span>Download</span>
-                      <i class='bx bx-down-arrow-alt text-xl'></i>
-                    </button>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-        
-        
-        
-      </div>
     </div>
   </main>
 
