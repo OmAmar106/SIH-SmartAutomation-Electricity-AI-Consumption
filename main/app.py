@@ -2,6 +2,7 @@ from flask import Flask, redirect, render_template, request, jsonify,url_for
 from flask import session
 from table import *
 from functools import wraps
+from model import *
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///database.sqlite3"
@@ -21,12 +22,21 @@ def login_required(f):
         return f(*args, **kwargs)
     return decorated_function
   
-@app.route('/')
+@app.route('/dashbord')
+@login_required
 def main():
-    if 'username' in session:
-        return redirect('/dashbord')
-    else:
-        return redirect('/login')
+    current_month_peak,current_month_forecast,avg_temp_today = model3()
+    current_month = datetime.now().strftime("%b")
+    today = datetime.now()
+    date = today.strftime("%d %b %y")
+    context = {
+        "cur_peak" :f"{current_month_peak['yhat']:.2f} MWH",
+        "cur_forec" : f"{current_month_forecast['yhat']:.2f} MWH",
+        "avg_temp" : f"{avg_temp_today:.2f}",
+        "month" : current_month,
+        "date" : date
+    }
+    return render_template('index.html',**context)
 
 @app.route('/login')
 def login():
@@ -50,29 +60,24 @@ def signup():
         #create this user
         return render_template('/dashbord')
     
-@app.route('/dashbord')
-@login_required
-def dashbord():
-    return render_template('user/dashbord.html')
-
-@app.route('/dashbord/calculate')
+@app.route('/dashbord/model')
 @login_required
 def calc():
+    pass
     #idhar model import krne ke bad , usse output leke webpage par dikhana hain :) 
     #ek bar create hua toh fir directly show kr denge ya toh save kr lenge backend main
 
 @app.route('/dashbord/solution')
 @login_required
 def sol():
+    pass
     #idhar sirf html rahega 
 
 @app.route('/dashbord/blogs')
 @login_required
 def blogs():
+    pass
 
-@app.route('/profile/<string:s>')
-@login_required
-def profile(s):
 
 if __name__ == '__main__':
     app.run(debug=True)

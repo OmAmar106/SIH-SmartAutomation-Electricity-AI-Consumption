@@ -8,10 +8,11 @@ import os
 import platform
 import plotly.io as pio
 
-script_dir = os.path.dirname(os.path.abspath(__file__))
-delhi_file_path = os.path.join(script_dir, "delhi.csv")
-delhi_peak_file_path = os.path.join(script_dir, "delhi_peak.csv")
+cur = os.path.dirname(os.path.realpath(__file__))
+delhi_file_path =  cur+'/static/datasets/delhi.csv'
+delhi_peak_file_path = cur+'/static/datasets/delhi_peak.csv'
 def model1(val):
+    print("Current Working Directory:", os.getcwd())
     delhi = pd.read_csv(delhi_file_path)
     delhi['Month'] = pd.to_datetime(delhi['Month'])
     delhi.sort_values('Month', inplace=True)
@@ -79,18 +80,45 @@ def model2(val):
     )
     return forecast, fig
 
-forecast1, fig1 = model1(5)
-forecast2, fig2 = model2(5)
+def model3():
+    forecast1,x = model1(1)
+    forecast2,x = model2(1)
+    current_month_forecast = forecast1[forecast1['ds'].dt.month == datetime.now().month].iloc[0]
+    current_month_peak = forecast2[forecast2['ds'].dt.month == datetime.now().month].iloc[0]
+    today = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+    yesterday = today - timedelta(days=1)
+    delhi_location = Point(28.6139, 77.2090)
+    weather_data_today = Daily(delhi_location, start=today, end=today)
+    weather_data_today = weather_data_today.fetch()
+    if weather_data_today.empty:
+        weather_data_yesterday = Daily(delhi_location, start=yesterday, end=yesterday)
+        weather_data_yesterday = weather_data_yesterday.fetch()
+        if not weather_data_yesterday.empty:
+            avg_temp_today = weather_data_yesterday['tavg'].mean()
+        else:
+            avg_temp_today = 'Data not available'
+    else:
+        avg_temp_today = weather_data_today['tavg'].mean()
+    return [current_month_peak,current_month_forecast,avg_temp_today]
 
-# Save figures as images
-pio.show(fig1)
-pio.show(fig2)
+# forecast1, fig1 = model1(5)
+# forecast2, fig2 = model2(5)
 
-# Display the forecast and temperature metrics
-current_month_forecast = forecast1[forecast1['ds'].dt.month == datetime.now().month].iloc[0]
-current_month_peak = forecast2[forecast2['ds'].dt.month == datetime.now().month].iloc[0]
+# # Save figures as images
+# pio.show(fig1)
+# pio.show(fig2)
+
+# # Display the forecast and temperature metrics
+# current_month_forecast = forecast1[forecast1['ds'].dt.month == datetime.now().month].iloc[0]
+# current_month_peak = forecast2[forecast2['ds'].dt.month == datetime.now().month].iloc[0]
+
+
+
+# print(current_month_forecast,current_month_peak)
 
 # Create columns for side-by-side plotting with full width
+
+
 # col1, col2 = st.columns([1, 1])
 
 # with col1:
@@ -101,10 +129,12 @@ current_month_peak = forecast2[forecast2['ds'].dt.month == datetime.now().month]
 #     forecast2, fig2 = model2(val)
 #     st.plotly_chart(fig2, use_container_width=True)
 
-# # Display the forecast and temperature metrics
-# st.write("### Current Metrics")
+# # # Display the forecast and temperature metrics
+# # st.write("### Current Metrics")
 
-# # Get the forecast for the current month
+# # # Get the forecast for the current month
+# forecast1,x = model1(1)
+# forecast2,x = model2(1)
 # current_month_forecast = forecast1[forecast1['ds'].dt.month == datetime.now().month].iloc[0]
 # current_month_peak = forecast2[forecast2['ds'].dt.month == datetime.now().month].iloc[0]
 
@@ -122,6 +152,10 @@ current_month_peak = forecast2[forecast2['ds'].dt.month == datetime.now().month]
 # delhi_location = Point(28.6139, 77.2090)
 # weather_data_today = Daily(delhi_location, start=today, end=today)
 # weather_data_today = weather_data_today.fetch()
+#current month forecast - average usage of current month 
+#current monrth peak - peak voltage of current mornth 
+#put todays date 
+
 # if weather_data_today.empty:
 #     weather_data_yesterday = Daily(delhi_location, start=yesterday, end=yesterday)
 #     weather_data_yesterday = weather_data_yesterday.fetch()
@@ -129,6 +163,9 @@ current_month_peak = forecast2[forecast2['ds'].dt.month == datetime.now().month]
 #         avg_temp_today = weather_data_yesterday['tavg'].mean()
 #     else:
 #         avg_temp_today = 'Data not available'
+#avg_temp_today gets average temperature kya hain 
+
+
 # else:
 #     avg_temp_today = weather_data_today['tavg'].mean()
 

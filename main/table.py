@@ -5,7 +5,7 @@ class User(db.Model):
     __tablename__ = 'User'
     ID = db.Column(db.Integer,primary_key = True,autoincrement = True)
     username = db.Column(db.String,nullable = False,unique = True)
-    password = db.Column(db.String,nullable = False) #hash krke dalna hain 
+    password = db.Column(db.String,nullable = False)
     email = db.Column(db.String,nullable = False)
 
 class Blog(db.Model):
