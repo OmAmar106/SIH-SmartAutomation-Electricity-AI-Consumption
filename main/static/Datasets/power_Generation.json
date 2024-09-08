@@ -1,0 +1,2084 @@
+[
+        {
+            "ID": "1",
+            "Month": "Feb-2019",
+            "fy": "2018-2019",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "89.30047999999999"
+        },
+        {
+            "ID": "2",
+            "Month": "Feb-2019",
+            "fy": "2018-2019",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.17291"
+        },
+        {
+            "ID": "3",
+            "Month": "Feb-2019",
+            "fy": "2018-2019",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.435840000000001"
+        },
+        {
+            "ID": "4",
+            "Month": "Feb-2019",
+            "fy": "2018-2019",
+            "mode": "BHUTAN IMP_Hydro",
+            "Region_State": "All India",
+            "bus": "0.0682"
+        },
+        {
+            "ID": "5",
+            "Month": "Feb-2019",
+            "fy": "2018-2019",
+            "mode": "RENEWABLE",
+            "Region_State": "All India",
+            "bus": "11.24518"
+        },
+        {
+            "ID": "10",
+            "Month": "Mar-2019",
+            "fy": "2018-2019",
+            "mode": "RENEWABLE",
+            "Region_State": "All India",
+            "bus": "11.30045"
+        },
+        {
+            "ID": "9",
+            "Month": "Mar-2019",
+            "fy": "2018-2019",
+            "mode": "BHUTAN IMP_Hydro",
+            "Region_State": "All India",
+            "bus": "0.10638"
+        },
+        {
+            "ID": "8",
+            "Month": "Mar-2019",
+            "fy": "2018-2019",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "9.089889999999999"
+        },
+        {
+            "ID": "7",
+            "Month": "Mar-2019",
+            "fy": "2018-2019",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.05431"
+        },
+        {
+            "ID": "6",
+            "Month": "Mar-2019",
+            "fy": "2018-2019",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "82.81242"
+        },
+    
+        {
+            "ID": "11",
+            "Month": "Apr-2019",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "66.80572000000001"
+        },
+        {
+            "ID": "12",
+            "Month": "Apr-2019",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.86008"
+        },
+        {
+            "ID": "13",
+            "Month": "Apr-2019",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "10.12142"
+        },
+        {
+            "ID": "14",
+            "Month": "Apr-2019",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP_Hydro",
+            "Region_State": "All India",
+            "bus": "0.258"
+        },
+        {
+            "ID": "15",
+            "Month": "Apr-2019",
+            "fy": "2019-2020",
+            "mode": "RENEWABLE",
+            "Region_State": "All India",
+            "bus": "10.63382"
+        },
+        {
+            "ID": "19",
+            "Month": "Jul-2019",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.876"
+        },
+        {
+            "ID": "18",
+            "Month": "Jul-2019",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "15.77735"
+        },
+        {
+            "ID": "17",
+            "Month": "Jul-2019",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.38228"
+        },
+        {
+            "ID": "16",
+            "Month": "Jul-2019",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "87.37192"
+        },
+        {
+            "ID": "20",
+            "Month": "Aug-2019",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "80.78213000000001"
+        },
+        {
+            "ID": "21",
+            "Month": "Aug-2019",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.30232"
+        },
+        {
+            "ID": "22",
+            "Month": "Aug-2019",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "19.92838"
+        },
+        {
+            "ID": "23",
+            "Month": "Aug-2019",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.1874"
+        },
+        {
+            "ID": "27",
+            "Month": "Sep-2019",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.2033"
+        },
+        {
+            "ID": "26",
+            "Month": "Sep-2019",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "20.79072"
+        },
+        {
+            "ID": "25",
+            "Month": "Sep-2019",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.22023"
+        },
+        {
+            "ID": "24",
+            "Month": "Sep-2019",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "78.98025"
+        },
+        {
+            "ID": "28",
+            "Month": "Oct-2019",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "79.11494"
+        },
+        {
+            "ID": "29",
+            "Month": "Oct-2019",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.31243"
+        },
+        {
+            "ID": "30",
+            "Month": "Oct-2019",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "14.63631"
+        },
+        {
+            "ID": "31",
+            "Month": "Oct-2019",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.8452999999999999"
+        },
+        {
+            "ID": "35",
+            "Month": "Nov-2019",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.3196"
+        },
+        {
+            "ID": "34",
+            "Month": "Nov-2019",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "10.02093"
+        },
+        {
+            "ID": "33",
+            "Month": "Nov-2019",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.79235"
+        },
+        {
+            "ID": "32",
+            "Month": "Nov-2019",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "79.53300999999999"
+        },
+        {
+            "ID": "36",
+            "Month": "Dec-2019",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "86.32915"
+        },
+        {
+            "ID": "37",
+            "Month": "Dec-2019",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.67659"
+        },
+        {
+            "ID": "38",
+            "Month": "Dec-2019",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.92689"
+        },
+        {
+            "ID": "39",
+            "Month": "Dec-2019",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.1655"
+        },
+        {
+            "ID": "43",
+            "Month": "Jan-2020",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.1054"
+        },
+        {
+            "ID": "42",
+            "Month": "Jan-2020",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.66507"
+        },
+        {
+            "ID": "41",
+            "Month": "Jan-2020",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.43739"
+        },
+        {
+            "ID": "40",
+            "Month": "Jan-2020",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "90.8031"
+        },
+        {
+            "ID": "44",
+            "Month": "Feb-2020",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "89.30047999999999"
+        },
+        {
+            "ID": "45",
+            "Month": "Feb-2020",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.17291"
+        },
+        {
+            "ID": "46",
+            "Month": "Feb-2020",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.435840000000001"
+        },
+        {
+            "ID": "47",
+            "Month": "Feb-2020",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0682"
+        },
+        {
+            "ID": "51",
+            "Month": "Mar-2020",
+            "fy": "2019-2020",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.10638"
+        },
+        {
+            "ID": "50",
+            "Month": "Mar-2020",
+            "fy": "2019-2020",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "9.089889999999999"
+        },
+        {
+            "ID": "49",
+            "Month": "Mar-2020",
+            "fy": "2019-2020",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.05431"
+        },
+        {
+            "ID": "48",
+            "Month": "Mar-2020",
+            "fy": "2019-2020",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "82.81242"
+        }
+    ,
+        {
+            "ID": "52",
+            "Month": "Apr-2020",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "66.80572000000001"
+        },
+        {
+            "ID": "53",
+            "Month": "Apr-2020",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.86008"
+        },
+        {
+            "ID": "54",
+            "Month": "Apr-2020",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "10.12142"
+        },
+        {
+            "ID": "55",
+            "Month": "Apr-2020",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.258"
+        },
+        {
+            "ID": "59",
+            "Month": "May-2020",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.784"
+        },
+        {
+            "ID": "58",
+            "Month": "May-2020",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "14.02613"
+        },
+        {
+            "ID": "57",
+            "Month": "May-2020",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.79754"
+        },
+        {
+            "ID": "56",
+            "Month": "May-2020",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "77.89375"
+        },
+        {
+            "ID": "60",
+            "Month": "Jun-2020",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "78.14717"
+        },
+        {
+            "ID": "61",
+            "Month": "Jun-2020",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.76473"
+        },
+        {
+            "ID": "62",
+            "Month": "Jun-2020",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "17.01582"
+        },
+        {
+            "ID": "63",
+            "Month": "Jun-2020",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.2145"
+        },
+        {
+            "ID": "67",
+            "Month": "Jul-2020",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.5406"
+        },
+        {
+            "ID": "66",
+            "Month": "Jul-2020",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "17.9224"
+        },
+        {
+            "ID": "65",
+            "Month": "Jul-2020",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.35852"
+        },
+        {
+            "ID": "64",
+            "Month": "Jul-2020",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "85.44727"
+        },
+        {
+            "ID": "68",
+            "Month": "Aug-2020",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "79.0337"
+        },
+        {
+            "ID": "69",
+            "Month": "Aug-2020",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.59073"
+        },
+        {
+            "ID": "70",
+            "Month": "Aug-2020",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "18.94988"
+        },
+        {
+            "ID": "71",
+            "Month": "Aug-2020",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.5606"
+        },
+        {
+            "ID": "75",
+            "Month": "Sep-2020",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.4518"
+        },
+        {
+            "ID": "74",
+            "Month": "Sep-2020",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "18.89044"
+        },
+        {
+            "ID": "73",
+            "Month": "Sep-2020",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.88197"
+        },
+        {
+            "ID": "72",
+            "Month": "Sep-2020",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "85.98774"
+        },
+        {
+            "ID": "76",
+            "Month": "Oct-2020",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "89.65552000000001"
+        },
+        {
+            "ID": "77",
+            "Month": "Oct-2020",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.96913"
+        },
+        {
+            "ID": "78",
+            "Month": "Oct-2020",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "13.14324"
+        },
+        {
+            "ID": "79",
+            "Month": "Oct-2020",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.9607"
+        },
+        {
+            "ID": "83",
+            "Month": "Nov-2020",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.4131"
+        },
+        {
+            "ID": "82",
+            "Month": "Nov-2020",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.41667"
+        },
+        {
+            "ID": "81",
+            "Month": "Nov-2020",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.83099"
+        },
+        {
+            "ID": "80",
+            "Month": "Nov-2020",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "82.53546"
+        },
+        {
+            "ID": "84",
+            "Month": "Dec-2020",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "91.41103"
+        },
+        {
+            "ID": "85",
+            "Month": "Dec-2020",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.89484"
+        },
+        {
+            "ID": "86",
+            "Month": "Dec-2020",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.15893"
+        },
+        {
+            "ID": "87",
+            "Month": "Dec-2020",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.2235"
+        },
+        {
+            "ID": "91",
+            "Month": "Jan-2021",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.135"
+        },
+        {
+            "ID": "90",
+            "Month": "Jan-2021",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "7.963439999999999"
+        },
+        {
+            "ID": "89",
+            "Month": "Jan-2021",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.2145"
+        },
+        {
+            "ID": "88",
+            "Month": "Jan-2021",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "97.19182000000001"
+        },
+        {
+            "ID": "92",
+            "Month": "Feb-2021",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "91.29930999999999"
+        },
+        {
+            "ID": "93",
+            "Month": "Feb-2021",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "2.70482"
+        },
+        {
+            "ID": "94",
+            "Month": "Feb-2021",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "7.316260000000001"
+        },
+        {
+            "ID": "95",
+            "Month": "Feb-2021",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.095"
+        },
+        {
+            "ID": "99",
+            "Month": "Mar-2021",
+            "fy": "2020-2021",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.1287"
+        },
+        {
+            "ID": "98",
+            "Month": "Mar-2021",
+            "fy": "2020-2021",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.374889999999999"
+        },
+        {
+            "ID": "97",
+            "Month": "Mar-2021",
+            "fy": "2020-2021",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.16123"
+        },
+        {
+            "ID": "96",
+            "Month": "Mar-2021",
+            "fy": "2020-2021",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "107.10505"
+        }
+    ,
+   
+        {
+            "ID": "100",
+            "Month": "Apr-2021",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "103.69741"
+        },
+        {
+            "ID": "101",
+            "Month": "Apr-2021",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.36372"
+        },
+        {
+            "ID": "102",
+            "Month": "Apr-2021",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.26557"
+        },
+        {
+            "ID": "103",
+            "Month": "Apr-2021",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.1466"
+        },
+        {
+            "ID": "107",
+            "Month": "May-2021",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.5737000000000001"
+        },
+        {
+            "ID": "106",
+            "Month": "May-2021",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "11.75214"
+        },
+        {
+            "ID": "105",
+            "Month": "May-2021",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.000179999999999"
+        },
+        {
+            "ID": "104",
+            "Month": "May-2021",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "87.50663"
+        },
+        {
+            "ID": "108",
+            "Month": "Jun-2021",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "85.43776"
+        },
+        {
+            "ID": "109",
+            "Month": "Jun-2021",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.89212"
+        },
+        {
+            "ID": "110",
+            "Month": "Jun-2021",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "16.00832"
+        },
+        {
+            "ID": "111",
+            "Month": "Jun-2021",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.1214"
+        },
+        {
+            "ID": "115",
+            "Month": "Jul-2021",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.197"
+        },
+        {
+            "ID": "114",
+            "Month": "Jul-2021",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "18.74528"
+        },
+        {
+            "ID": "113",
+            "Month": "Jul-2021",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.61318"
+        },
+        {
+            "ID": "112",
+            "Month": "Jul-2021",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "92.4267"
+        },
+        {
+            "ID": "116",
+            "Month": "Aug-2021",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "96.23197"
+        },
+        {
+            "ID": "117",
+            "Month": "Aug-2021",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.13988"
+        },
+        {
+            "ID": "118",
+            "Month": "Aug-2021",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "20.26991"
+        },
+        {
+            "ID": "119",
+            "Month": "Aug-2021",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.3358"
+        },
+        {
+            "ID": "123",
+            "Month": "Sep-2021",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.26"
+        },
+        {
+            "ID": "122",
+            "Month": "Sep-2021",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "17.76529"
+        },
+        {
+            "ID": "121",
+            "Month": "Sep-2021",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.89696"
+        },
+        {
+            "ID": "120",
+            "Month": "Sep-2021",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "85.31900999999999"
+        },
+        {
+            "ID": "124",
+            "Month": "Oct-2021",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "90.10567999999999"
+        },
+        {
+            "ID": "125",
+            "Month": "Oct-2021",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.41741"
+        },
+        {
+            "ID": "126",
+            "Month": "Oct-2021",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "15.53461"
+        },
+        {
+            "ID": "127",
+            "Month": "Oct-2021",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.9736"
+        },
+        {
+            "ID": "131",
+            "Month": "Nov-2021",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.4645"
+        },
+        {
+            "ID": "130",
+            "Month": "Nov-2021",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "9.705729999999999"
+        },
+        {
+            "ID": "129",
+            "Month": "Nov-2021",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.06263"
+        },
+        {
+            "ID": "128",
+            "Month": "Nov-2021",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "82.70886999999999"
+        },
+        {
+            "ID": "132",
+            "Month": "Dec-2021",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "93.29550999999999"
+        },
+        {
+            "ID": "133",
+            "Month": "Dec-2021",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.45132"
+        },
+        {
+            "ID": "134",
+            "Month": "Dec-2021",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.066180000000001"
+        },
+        {
+            "ID": "135",
+            "Month": "Dec-2021",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.1791"
+        },
+        {
+            "ID": "139",
+            "Month": "Jan-2022",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0401"
+        },
+        {
+            "ID": "138",
+            "Month": "Jan-2022",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "7.49703"
+        },
+        {
+            "ID": "137",
+            "Month": "Jan-2022",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.0567"
+        },
+        {
+            "ID": "136",
+            "Month": "Jan-2022",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "96.29228000000001"
+        },
+        {
+            "ID": "140",
+            "Month": "Feb-2022",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "92.93150999999999"
+        },
+        {
+            "ID": "141",
+            "Month": "Feb-2022",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.81139"
+        },
+        {
+            "ID": "142",
+            "Month": "Feb-2022",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "7.43341"
+        },
+        {
+            "ID": "143",
+            "Month": "Feb-2022",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0321"
+        },
+        {
+            "ID": "147",
+            "Month": "Mar-2022",
+            "fy": "2021-2022",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.1693"
+        },
+        {
+            "ID": "146",
+            "Month": "Mar-2022",
+            "fy": "2021-2022",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "10.58386"
+        },
+        {
+            "ID": "145",
+            "Month": "Mar-2022",
+            "fy": "2021-2022",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.406569999999999"
+        },
+        {
+            "ID": "144",
+            "Month": "Mar-2022",
+            "fy": "2021-2022",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "108.76115"
+        }
+    ,
+    
+        {
+            "ID": "148",
+            "Month": "Apr-2022",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "111.58283"
+        },
+        {
+            "ID": "149",
+            "Month": "Apr-2022",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.52119"
+        },
+        {
+            "ID": "150",
+            "Month": "Apr-2022",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "11.54096"
+        },
+        {
+            "ID": "151",
+            "Month": "Apr-2022",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.3861"
+        },
+        {
+            "ID": "155",
+            "Month": "May-2022",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.3968"
+        },
+        {
+            "ID": "154",
+            "Month": "May-2022",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "12.88091"
+        },
+        {
+            "ID": "153",
+            "Month": "May-2022",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.52472"
+        },
+        {
+            "ID": "152",
+            "Month": "May-2022",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "108.41617"
+        },
+        {
+            "ID": "156",
+            "Month": "Jun-2022",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "105.61817"
+        },
+        {
+            "ID": "157",
+            "Month": "Jun-2022",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.86738"
+        },
+        {
+            "ID": "158",
+            "Month": "Jun-2022",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "13.94612"
+        },
+        {
+            "ID": "159",
+            "Month": "Jun-2022",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.9899"
+        },
+        {
+            "ID": "163",
+            "Month": "Jul-2022",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.0993"
+        },
+        {
+            "ID": "162",
+            "Month": "Jul-2022",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "19.46511"
+        },
+        {
+            "ID": "161",
+            "Month": "Jul-2022",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.016929999999999"
+        },
+        {
+            "ID": "160",
+            "Month": "Jul-2022",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "94.35588"
+        },
+        {
+            "ID": "164",
+            "Month": "Aug-2022",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "93.23"
+        },
+        {
+            "ID": "165",
+            "Month": "Aug-2022",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.58677"
+        },
+        {
+            "ID": "166",
+            "Month": "Aug-2022",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "23.40411"
+        },
+        {
+            "ID": "167",
+            "Month": "Aug-2022",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.2931"
+        },
+        {
+            "ID": "171",
+            "Month": "Sep-2022",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.2705"
+        },
+        {
+            "ID": "170",
+            "Month": "Sep-2022",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "22.01656"
+        },
+        {
+            "ID": "169",
+            "Month": "Sep-2022",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.41252"
+        },
+        {
+            "ID": "168",
+            "Month": "Sep-2022",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "93.29594"
+        },
+        {
+            "ID": "172",
+            "Month": "Oct-2022",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "88.18558"
+        },
+        {
+            "ID": "173",
+            "Month": "Oct-2022",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.21926"
+        },
+        {
+            "ID": "174",
+            "Month": "Oct-2022",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "16.17867"
+        },
+        {
+            "ID": "175",
+            "Month": "Oct-2022",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.9176"
+        },
+        {
+            "ID": "179",
+            "Month": "Nov-2022",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.2311"
+        },
+        {
+            "ID": "178",
+            "Month": "Nov-2022",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "9.880409999999999"
+        },
+        {
+            "ID": "177",
+            "Month": "Nov-2022",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.86967"
+        },
+        {
+            "ID": "176",
+            "Month": "Nov-2022",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "94.46284"
+        },
+        {
+            "ID": "180",
+            "Month": "Dec-2022",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "102.94225"
+        },
+        {
+            "ID": "181",
+            "Month": "Dec-2022",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.90158"
+        },
+        {
+            "ID": "182",
+            "Month": "Dec-2022",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.59076"
+        },
+        {
+            "ID": "183",
+            "Month": "Dec-2022",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0688"
+        },
+        {
+            "ID": "187",
+            "Month": "Jan-2023",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0451"
+        },
+        {
+            "ID": "186",
+            "Month": "Jan-2023",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.06315"
+        },
+        {
+            "ID": "185",
+            "Month": "Jan-2023",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.11892"
+        },
+        {
+            "ID": "184",
+            "Month": "Jan-2023",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "106.39371"
+        },
+        {
+            "ID": "188",
+            "Month": "Feb-2023",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "99.36763000000001"
+        },
+        {
+            "ID": "189",
+            "Month": "Feb-2023",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.77436"
+        },
+        {
+            "ID": "190",
+            "Month": "Feb-2023",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.358459999999999"
+        },
+        {
+            "ID": "191",
+            "Month": "Feb-2023",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0226"
+        },
+        {
+            "ID": "195",
+            "Month": "Mar-2023",
+            "fy": "2022-2023",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0215"
+        },
+        {
+            "ID": "194",
+            "Month": "Mar-2023",
+            "fy": "2022-2023",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "7.77355"
+        },
+        {
+            "ID": "193",
+            "Month": "Mar-2023",
+            "fy": "2022-2023",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.04779"
+        },
+        {
+            "ID": "192",
+            "Month": "Mar-2023",
+            "fy": "2022-2023",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "108.35967"
+        }
+    ,
+    
+        {
+            "ID": "196",
+            "Month": "Apr-2023",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "111.57348"
+        },
+        {
+            "ID": "197",
+            "Month": "Apr-2023",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.51245"
+        },
+        {
+            "ID": "198",
+            "Month": "Apr-2023",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.728969999999999"
+        },
+        {
+            "ID": "199",
+            "Month": "Apr-2023",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0582"
+        },
+        {
+            "ID": "203",
+            "Month": "May-2023",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.1318"
+        },
+        {
+            "ID": "202",
+            "Month": "May-2023",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "11.45868"
+        },
+        {
+            "ID": "201",
+            "Month": "May-2023",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.49591"
+        },
+        {
+            "ID": "200",
+            "Month": "May-2023",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "111.51528"
+        },
+        {
+            "ID": "204",
+            "Month": "Jun-2023",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "109.22004"
+        },
+        {
+            "ID": "205",
+            "Month": "Jun-2023",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.20974"
+        },
+        {
+            "ID": "206",
+            "Month": "Jun-2023",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "14.33425"
+        },
+        {
+            "ID": "207",
+            "Month": "Jun-2023",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.6187"
+        },
+        {
+            "ID": "211",
+            "Month": "Jul-2023",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.2586"
+        },
+        {
+            "ID": "210",
+            "Month": "Jul-2023",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "17.92448"
+        },
+        {
+            "ID": "209",
+            "Month": "Jul-2023",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.95453"
+        },
+        {
+            "ID": "208",
+            "Month": "Jul-2023",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "103.17541"
+        },
+        {
+            "ID": "212",
+            "Month": "Aug-2023",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "110.06564"
+        },
+        {
+            "ID": "213",
+            "Month": "Aug-2023",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.37012"
+        },
+        {
+            "ID": "214",
+            "Month": "Aug-2023",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "21.95979"
+        },
+        {
+            "ID": "215",
+            "Month": "Aug-2023",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.1988"
+        },
+        {
+            "ID": "219",
+            "Month": "Sep-2023",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.8694"
+        },
+        {
+            "ID": "218",
+            "Month": "Sep-2023",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "16.32275"
+        },
+        {
+            "ID": "217",
+            "Month": "Sep-2023",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.525770000000001"
+        },
+        {
+            "ID": "216",
+            "Month": "Sep-2023",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "108.82055"
+        },
+        {
+            "ID": "220",
+            "Month": "Oct-2023",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "117.25864"
+        },
+        {
+            "ID": "221",
+            "Month": "Oct-2023",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.49354"
+        },
+        {
+            "ID": "222",
+            "Month": "Oct-2023",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "11.24045"
+        },
+        {
+            "ID": "223",
+            "Month": "Oct-2023",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.5085"
+        },
+        {
+            "ID": "227",
+            "Month": "Nov-2023",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0165"
+        },
+        {
+            "ID": "226",
+            "Month": "Nov-2023",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "6.62129"
+        },
+        {
+            "ID": "225",
+            "Month": "Nov-2023",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.42449"
+        },
+        {
+            "ID": "224",
+            "Month": "Nov-2023",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "103.66697"
+        },
+        {
+            "ID": "228",
+            "Month": "Dec-2023",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "105.49125"
+        },
+        {
+            "ID": "229",
+            "Month": "Dec-2023",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.27681"
+        },
+        {
+            "ID": "230",
+            "Month": "Dec-2023",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "6.16711"
+        },
+        {
+            "ID": "231",
+            "Month": "Dec-2023",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0116"
+        },
+        {
+            "ID": "235",
+            "Month": "Jan-2024",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0158"
+        },
+        {
+            "ID": "234",
+            "Month": "Jan-2024",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "6.35229"
+        },
+        {
+            "ID": "233",
+            "Month": "Jan-2024",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.15232"
+        },
+        {
+            "ID": "232",
+            "Month": "Jan-2024",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "117.48819"
+        },
+        {
+            "ID": "236",
+            "Month": "Feb-2024",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "109.26482"
+        },
+        {
+            "ID": "237",
+            "Month": "Feb-2024",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "3.50179"
+        },
+        {
+            "ID": "238",
+            "Month": "Feb-2024",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "5.92816"
+        },
+        {
+            "ID": "239",
+            "Month": "Feb-2024",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.009900000000000001"
+        },
+        {
+            "ID": "243",
+            "Month": "Mar-2024",
+            "fy": "2023-2024",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0183"
+        },
+        {
+            "ID": "242",
+            "Month": "Mar-2024",
+            "fy": "2023-2024",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "7.0157"
+        },
+        {
+            "ID": "241",
+            "Month": "Mar-2024",
+            "fy": "2023-2024",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.01994"
+        },
+        {
+            "ID": "240",
+            "Month": "Mar-2024",
+            "fy": "2023-2024",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "118.74567"
+        }
+    ,
+    
+        {
+            "ID": "244",
+            "Month": "Apr-2024",
+            "fy": "2024-2025",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "123.68153"
+        },
+        {
+            "ID": "245",
+            "Month": "Apr-2024",
+            "fy": "2024-2025",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.44361"
+        },
+        {
+            "ID": "246",
+            "Month": "Apr-2024",
+            "fy": "2024-2025",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "8.10914"
+        },
+        {
+            "ID": "247",
+            "Month": "Apr-2024",
+            "fy": "2024-2025",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.0756"
+        },
+        {
+            "ID": "251",
+            "Month": "May-2024",
+            "fy": "2024-2025",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.1332"
+        },
+        {
+            "ID": "250",
+            "Month": "May-2024",
+            "fy": "2024-2025",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "12.59542"
+        },
+        {
+            "ID": "249",
+            "Month": "May-2024",
+            "fy": "2024-2025",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.44705"
+        },
+        {
+            "ID": "248",
+            "Month": "May-2024",
+            "fy": "2024-2025",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "127.87048"
+        },
+        {
+            "ID": "255",
+            "Month": "Jun-2024",
+            "fy": "2024-2025",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "0.5352"
+        },
+        {
+            "ID": "254",
+            "Month": "Jun-2024",
+            "fy": "2024-2025",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "14.17368"
+        },
+        {
+            "ID": "253",
+            "Month": "Jun-2024",
+            "fy": "2024-2025",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.21761"
+        },
+        {
+            "ID": "252",
+            "Month": "Jun-2024",
+            "fy": "2024-2025",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "120.86506"
+        },
+        {
+            "ID": "256",
+            "Month": "Jul-2024",
+            "fy": "2024-2025",
+            "mode": "THERMAL",
+            "Region_State": "All India",
+            "bus": "111.40642"
+        },
+        {
+            "ID": "257",
+            "Month": "Jul-2024",
+            "fy": "2024-2025",
+            "mode": "NUCLEAR",
+            "Region_State": "All India",
+            "bus": "4.799840000000001"
+        },
+        {
+            "ID": "258",
+            "Month": "Jul-2024",
+            "fy": "2024-2025",
+            "mode": "HYDRO",
+            "Region_State": "All India",
+            "bus": "17.56291"
+        },
+        {
+            "ID": "259",
+            "Month": "Jul-2024",
+            "fy": "2024-2025",
+            "mode": "BHUTAN IMP",
+            "Region_State": "All India",
+            "bus": "1.1667"
+        }
+    ]

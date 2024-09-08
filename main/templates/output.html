@@ -12,7 +12,7 @@
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
   <link rel="stylesheet" href="./node_modules/simplebar/dist/simplebar.min.css" />
-
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <link rel="stylesheet" href="/static/css/theme.css" />
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8S4MT3EYG"></script>
@@ -38,7 +38,7 @@
         <div id="myScrollableElement" class="h-screen" data-simplebar>
           <!-- brand logo -->
           <a class="navbar-brand" href="/dashbord">
-            <img src="/static/images/logo.jpg" alt="" />
+            <img src="/static/images/logo.jpg" style="width:120%; height:120%;" />
           </a>
 
           <ul class="navbar-nav flex-col" id="sideNavbar">
@@ -60,7 +60,7 @@
               <a class="nav-link collapsed" href="/tmodel" data-bs-toggle="collapse" data-bs-target="#navPages"
                 aria-expanded="false" aria-controls="navPages">
                 <i data-feather="layers" class="w-4 h-4 mr-2"></i>
-                Thermal Model
+                Energy Profiling
               </a>
               <div id="navPages" class="collapse" data-bs-parent="#sideNavbar">
                 <ul class="nav flex-col">
@@ -314,8 +314,8 @@
           </a> -->
         </div>
         <div class="flex w-full h-auto">
-            <img src="/static/images/{{val}}file1.png" style="width:50%;height:50%;">
-            <img src="/static/images/{{val}}file2.png" style="width:50%;height:50%;">
+          <div id="graph1" style="width:50%;height:50%;"></div>
+          <div id="graph2" style="width:50%;height:50%;"></div>
         </div>
     </div>
   </main>
@@ -328,6 +328,12 @@
   <script src="./node_modules/simplebar/dist/simplebar.min.js"></script>
 
   <script src="/static/js/theme.js"></script>
+  <script>
+    var img1 = {{ img11 | safe }};
+    var img2 = {{ img21 | safe }};
+    Plotly.newPlot('graph1', img1.data, img1.layout);
+    Plotly.newPlot('graph2', img2.data, img2.layout);
+  </script>
 </body>
 
 </html>

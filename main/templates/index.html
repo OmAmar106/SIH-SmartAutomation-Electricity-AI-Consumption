@@ -39,7 +39,7 @@
         <div id="myScrollableElement" class="h-screen" data-simplebar>
           <!-- brand logo -->
           <a class="navbar-brand" href="/dashbord">
-            <img src="/static/images/logo.jpg" alt="" />
+            <img src="/static/images/logo.jpg" style="width:120%; height:120%;" />
           </a>
 
           <ul class="navbar-nav flex-col" id="sideNavbar">
@@ -61,7 +61,7 @@
               <a class="nav-link collapsed" href="/tmodel" data-bs-toggle="collapse" data-bs-target="#navPages"
                 aria-expanded="false" aria-controls="navPages">
                 <i data-feather="layers" class="w-4 h-4 mr-2"></i>
-                Thermal Model
+                Energy Profiling
               </a>
               <div id="navPages" class="collapse" data-bs-parent="#sideNavbar">
                 <ul class="nav flex-col">
@@ -344,7 +344,7 @@
                 <h4>{{month}}'s Expected Peak</h4>
                 <div
                   class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="briefcase"></i>
+                  <i data-feather="briefcase"><img src="/static/images/peak.png" class="w-10 h-10"></i>
                 </div>
               </div>
               <div class="mt-4 flex flex-col gap-0 text-base">
@@ -365,7 +365,7 @@
                 <h4>{{month}}'s Forecast</h4>
                 <div
                   class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="list"></i>
+                  <i data-feather="briefcase"><img src="/static/images/forecast.png" class="w-10 h-10"></i>
                 </div>
               </div>
               <div class="mt-4 flex flex-col gap-0 text-base">
@@ -386,7 +386,7 @@
                 <h4>Average Temperature</h4>
                 <div
                   class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="users"></i>
+                  <i data-feather="briefcase"><img src="/static/images/temp.png" class="w-10 h-10"></i>
                 </div>
               </div>
               <div class="mt-4 flex flex-col gap-0 text-base">
@@ -407,7 +407,7 @@
                 <h4>Today's Date</h4>
                 <div
                   class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="target"></i>
+                  <i data-feather="briefcase"><img src="/static/images/date.png" class="w-10 h-10"></i>
                 </div>
               </div>
               <div class="mt-4 flex flex-col gap-0 text-base">
@@ -421,7 +421,6 @@
 
           </div>
         </div>
-        <br><br>
         <footer class="bg-gray-700 text-gray-100 py-6">
           <div class="container mx-auto px-4">
             <div class="flex flex-col items-center">
@@ -433,9 +432,9 @@
               <!-- List of datasets -->
               <div class="flex flex-wrap justify-center gap-6">
                 <!-- Dataset 1 -->
-                <div class="flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-md space-y-4 mb-8">
+                <div class="flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-md space-y-4 mb-8 w-64">
                   <h4 class="text-lg font-semibold text-white">
-                    Delhi Peak Electricity Consumption Dataset
+                    Peak Electricity Consumption
                   </h4>
                   <a href="/static/Datasets/delhi_peak.csv" download>
                     <button class="transition duration-300 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg flex items-center space-x-2 mt-4">
@@ -444,13 +443,39 @@
                     </button>
                   </a>
                 </div>
-        
+          
                 <!-- Dataset 2 -->
-                <div class="flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-md space-y-4 mb-8">
+                <div class="flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-md space-y-4 mb-8 w-64">
                   <h4 class="text-lg font-semibold text-white">
-                    Delhi Average Electricity Consumption Dataset
+                    Electricity Consumption Dataset
                   </h4>
                   <a href="/static/Datasets/delhi.csv" download>
+                    <button class="transition duration-300 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg flex items-center space-x-2 mt-4">
+                      <span>Download</span>
+                      <i class='bx bx-down-arrow-alt text-xl'></i>
+                    </button>
+                  </a>
+                </div>
+          
+                <!-- Dataset 3 -->
+                <div class="flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-md space-y-4 mb-8 w-64">
+                  <h4 class="text-lg font-semibold text-white">
+                    Renewable Energy Dataset
+                  </h4>
+                  <a href="/static/Datasets/rene_energy.json" download>
+                    <button class="transition duration-300 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg flex items-center space-x-2 mt-4">
+                      <span>Download</span>
+                      <i class='bx bx-down-arrow-alt text-xl'></i>
+                    </button>
+                  </a>
+                </div>
+          
+                <!-- Dataset 4 -->
+                <div class="flex flex-col items-center bg-gray-800 p-4 rounded-lg shadow-md space-y-4 mb-8 w-64">
+                  <h4 class="text-lg font-semibold text-white">
+                    Power Generation Dataset
+                  </h4>
+                  <a href="/static/Datasets/power_Generation.json" download>
                     <button class="transition duration-300 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg flex items-center space-x-2 mt-4">
                       <span>Download</span>
                       <i class='bx bx-down-arrow-alt text-xl'></i>
@@ -460,6 +485,8 @@
               </div>
             </div>
           </div>
+           <!-- Dataset 2 -->
+                
         </footer>
         
         

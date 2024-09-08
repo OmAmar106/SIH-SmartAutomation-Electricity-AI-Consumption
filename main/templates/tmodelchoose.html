@@ -53,12 +53,12 @@
               <div class="navbar-heading">Pages</div>
             </li>
             <li class="nav-item">
-              <a class="nav-link active collapsed" href="/model" data-bs-toggle="collapse" data-bs-target="#navPages"
+              <a class="nav-link collapsed" href="/model" data-bs-toggle="collapse" data-bs-target="#navPages"
                 aria-expanded="false" aria-controls="navPages">
                 <i data-feather="layers" class="w-4 h-4 mr-2"></i>
                 Electricity Model
               </a>
-              <a class="nav-link collapsed" href="/tmodel" data-bs-toggle="collapse" data-bs-target="#navPages"
+              <a class="nav-link active collapsed" href="/tmodel" data-bs-toggle="collapse" data-bs-target="#navPages"
                 aria-expanded="false" aria-controls="navPages">
                 <i data-feather="layers" class="w-4 h-4 mr-2"></i>
                 Energy Profiling
@@ -400,10 +400,28 @@
 
           </div>
         </div>
-        <br><br>
         <footer class="bg-gray-700 text-gray-100 py-6">
           <div class="container mx-auto px-4">
             <form method="POST">
+              <label for="year-select" class="mb-4 text-sm font-medium text-gray-900 dark:text-white text-center">
+                <h3>Select Year</h3>
+              </label>
+              <div class="flex justify-center">
+                <div class="relative" style="width: 300px;">
+                  <br>
+                  <select id="year-select" name="get1" class="block w-full px-3 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-indigo-500 dark:focus:border-indigo-500">
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                  </select>
+                </div>
+              </div>
+              
+              
+              <br><br>
             <div class="flex flex-col items-center">
                 <label for="default-range" class="mb-4 text-sm font-medium text-gray-900 dark:text-white text-center">
                   <h3>Input Number of Months to be Considered</h3>

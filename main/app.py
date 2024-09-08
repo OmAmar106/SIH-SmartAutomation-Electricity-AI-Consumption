@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 from plotly.io import to_image
 from flask_caching import Cache
+from tmodel import *
 
 app = Flask(__name__)
 app.config['CACHE_TYPE'] = 'simple'
@@ -33,7 +34,7 @@ def index():
     return redirect('/dashbord')
 
 @app.route('/dashbord')
-@cache.cached(timeout=60)
+@cache.cached(timeout=120)
 @login_required
 def main():
     current_month_peak,current_month_forecast,avg_temp_today = model3()
@@ -69,7 +70,6 @@ def main():
 #         return render_template('/dashbord')
     
 @app.route('/model',methods=["POST","GET"])
-@cache.cached(timeout=60)
 @login_required
 def calc():
     if request.method=='GET':
@@ -88,14 +88,14 @@ def calc():
     else:
         val = request.form['get']
         val = int(val)
-        model4(val)
+        img1,img2 = model4(val)
         # img1_filename = f"static/images/"+str(val)+"1.png"
         # img2_filename = f"static/images/"+str(val)+"2.png"
         # img1_path = os.path.join(os.getcwd(), img1_filename)
         # img2_path = os.path.join(os.getcwd(), img2_filename)
         # img1.write_image(img1_path)
         # img2.write_image(img2_path)
-        return render_template('output.html',val=val)
+        return render_template('output.html',img11=img1,img21=img2)
         # def image_to_base64(fig):
         #     img_base64 = base64.b64encode(img_bytes).decode('utf-8')
         #     print(3)
@@ -103,6 +103,32 @@ def calc():
         # img1_base64 = image_to_base64(img1)
         # img2_base64 = image_to_base64(img2)
 
+@app.route('/tmodel',methods=["POST","GET"])
+@login_required
+def calcmode():
+    if request.method=='GET':
+        current_month_peak,current_month_forecast,avg_temp_today = model3()
+        current_month = datetime.now().strftime("%b")
+        today = datetime.now()
+        date = today.strftime("%d %b %y")
+        context = {
+            "cur_peak" :f"{current_month_peak['yhat']:.2f} MWH",
+            "cur_forec" : f"{current_month_forecast['yhat']:.2f} MWH",
+            "avg_temp" : f"{avg_temp_today:.2f}",
+            "month" : current_month,
+            "date" : date
+        }
+        return render_template('tmodelchoose.html',**context)
+    else:
+        val = request.form['get']
+        val = int(val)
+        img2 = renewable(val)
+        val1 = request.form['get1']
+        val1 = int(val1)
+        img3,img4 = stats(val1)
+        img1 = thermal(val)
+        return render_template('toutput.html',img11=img1,img21=img2,img31=img3,img41=img4)
+    
 # @app.route('/dashbord/solution')
 # @login_required
 # def sol():

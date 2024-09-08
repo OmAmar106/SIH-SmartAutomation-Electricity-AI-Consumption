@@ -7,13 +7,12 @@
   <meta name="viewport" content="width=device-width" />
   <meta name="description" content="Delhi Electricity Prediction" />
   <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon/favicon.ico" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" />
   <link rel="stylesheet" href="./node_modules/simplebar/dist/simplebar.min.css" />
-
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <link rel="stylesheet" href="/static/css/theme.css" />
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8S4MT3EYG"></script>
@@ -53,12 +52,12 @@
               <div class="navbar-heading">Pages</div>
             </li>
             <li class="nav-item">
-              <a class="nav-link active collapsed" href="/model" data-bs-toggle="collapse" data-bs-target="#navPages"
+              <a class="nav-link collapsed" href="/model" data-bs-toggle="collapse" data-bs-target="#navPages"
                 aria-expanded="false" aria-controls="navPages">
                 <i data-feather="layers" class="w-4 h-4 mr-2"></i>
                 Electricity Model
               </a>
-              <a class="nav-link collapsed" href="/tmodel" data-bs-toggle="collapse" data-bs-target="#navPages"
+              <a class="nav-link active collapsed" href="/tmodel" data-bs-toggle="collapse" data-bs-target="#navPages"
                 aria-expanded="false" aria-controls="navPages">
                 <i data-feather="layers" class="w-4 h-4 mr-2"></i>
                 Energy Profiling
@@ -308,137 +307,28 @@
 
 
           <h1 class="text-xl text-white">
-            Delhi Electricity Consumption Predictor
+            Energy Consumption Predictor
           </h1>
           <!-- <a href="#"
             class="btn bg-white text-gray-800 border-gray-600 hover:bg-gray-100 hover:text-gray-800 hover:border-gray-200 active:bg-gray-100 active:text-gray-800 active:border-gray-200 focus:outline-none focus:ring-4 focus:ring-indigo-300">
           </a> -->
         </div>
-        <div class="-mt-12 mx-6 mb-6 grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 xl:grid-cols-4">
-          <!-- card -->
-          <div class="card shadow">
-            <!-- card body -->
-            <div class="card-body">
-              <!-- content -->
-              <div class="flex justify-between items-center">
-                <h4>{{month}}'s Expected Peak</h4>
-                <div
-                  class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="briefcase"><img src="/static/images/peak.png" class="w-10 h-10"></i>
-                </div>
-              </div>
-              <div class="mt-4 flex flex-col gap-0 text-base">
-                <h2 class="text-xl font-bold">{{ cur_peak }}</h2>
-                <!-- <div>
-                  <span>2</span>
-                  <span class="text-gray-500">Completed</span>
-                </div> -->
-              </div>
-            </div>
+        <div class="flex flex-col w-full h-auto">
+          <!-- First column of graphs -->
+          <div class="flex w-full h-auto mb-4">
+            <div id="graph3" class="flex-1" style="height: 50%;"></div>
           </div>
-          <!-- card -->
-          <div class="card shadow">
-            <!-- card boduy -->
-            <div class="card-body">
-              <!-- content -->
-              <div class="flex justify-between items-center">
-                <h4>{{month}}'s Forecast</h4>
-                <div
-                  class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="list"><i data-feather="briefcase"><img src="/static/images/forecast.png" class="w-10 h-10"></i></i>
-                </div>
-              </div>
-              <div class="mt-4 flex flex-col gap-0 text-base">
-                <h2 class="text-xl font-bold">{{cur_forec}}</h2>
-                <div>
-                  <!-- <span>28</span>
-                  <span class="text-gray-500">Completed</span> -->
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- card -->
-          <div class="card shadow">
-            <!-- card body -->
-            <div class="card-body">
-              <!-- content -->
-              <div class="flex justify-between items-center">
-                <h4>Average Temperature</h4>
-                <div
-                  class="bg-indigo-600 bg-opacity-10 rounded-md w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <i data-feather="users"><i data-feather="briefcase"><img src="/static/images/temp.png" class="w-10 h-10"></i></i>
-                </div>
-              </div>
-              <div class="mt-4 flex flex-col gap-0 text-base">
-                <h2 class="text-xl font-bold">{{ avg_temp }}&deg; C</h2>
-                <!-- <div>
-                  <span>1</span>
-                  <span class="text-gray-500">Completed</span>
-                </div> -->
-              </div>
-            </div>
-          </div>
-          <!-- card -->
-          <div class="card shadow">
-            <!-- card body -->
-            <div class="card-body">
-              <!-- content -->
-              <div class="flex justify-between items-center">
-                <h4>Today's Date</h4>
-                <div class="bg-indigo-600 bg-opacity-10 rounded-full w-10 h-10 flex items-center justify-center text-center text-indigo-600">
-                  <img src="/static/images/date.png" class="w-10 h-10">
-                </div>
-              </div>
-              <div class="mt-4 flex flex-col gap-0 text-base">
-                <h2 class="text-xl font-bold">{{date}}</h2>
-                <!-- <div>
-                  <span class="text-green-600">5%</span>
-                  <span class="text-gray-500">Completed</span>
-                </div> -->
-              </div>
-            </div>
-
+          <div class="flex w-full h-auto">
+            <div id="graph4" class="flex-1" style="height: 50%;"></div>
           </div>
         </div>
-        <br><br>
-        <footer class="bg-gray-700 text-gray-100 py-6">
-          <div class="container mx-auto px-4">
-            <form method="POST">
-            <div class="flex flex-col items-center">
-                <label for="default-range" class="mb-4 text-sm font-medium text-gray-900 dark:text-white text-center">
-                  <h3>Input Number of Months to be Considered</h3>
-                </label>
-                <br>
-                <div class="relative w-[1000px]">
-                  <input id="default-range" type="range" min="1" max="12" step="1" value="6" name="get"
-                    style="width: 1000px; height: 0.75rem;" class="bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700">
-                  <div class="absolute top-full left-0 w-full flex justify-between px-1 mt-2 text-sm text-gray-900 dark:text-white">
-                    <span>1</span>
-                    <span>2</span>
-                    <span>3</span>
-                    <span>4</span>
-                    <span>5</span>
-                    <span>6</span>
-                    <span>7</span>
-                    <span>8</span>
-                    <span>9</span>
-                    <span>10</span>
-                    <span>11</span>
-                    <span>12</span>
-                  </div>
-                </div>
-              </div>
-              <br><br>
-              <div class="flex justify-center">
-                <input type="submit" class="cursor-pointer duration-300 bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg flex items-center space-x-2 mt-4" value="Predict">
-              </div>
-              </form>
-          </div>
-        </footer>
+    
+        <!-- Second column of graphs -->
+        <div class="flex w-full h-auto">
+          <div id="graph1" class="flex-1" style="height: 50%;"></div>
+          <div id="graph2" class="flex-1" style="height: 50%;"></div>
+        </div>
         
-        
-        
-      </div>
     </div>
   </main>
 
@@ -450,6 +340,16 @@
   <script src="./node_modules/simplebar/dist/simplebar.min.js"></script>
 
   <script src="/static/js/theme.js"></script>
+  <script>
+    var img1 = {{ img11 | safe }};
+    var img2 = {{ img21 | safe }};
+    var img3 = {{ img31 | safe }};
+    var img4 = {{ img41 | safe }};
+    Plotly.newPlot('graph1', img1.data, img1.layout);
+    Plotly.newPlot('graph2', img2.data, img2.layout);
+    Plotly.newPlot('graph3', img3.data, img3.layout);
+    Plotly.newPlot('graph4', img4.data, img4.layout);
+  </script>
 </body>
 
 </html>

@@ -6,7 +6,7 @@ from datetime import datetime,timedelta
 from dateutil.relativedelta import relativedelta
 import os
 import platform
-import plotly.io as plo
+import plotly.io as pio
 import plotly.express as px
 from plotly.io import to_image
 
@@ -42,7 +42,7 @@ def model1(val):
     fig = px.line(forecast, x='ds', y='yhat', title='Forecasted Energy Requirement')
     fig.update_layout(
         xaxis_title='Time',
-        yaxis_title='Power in MWH',
+        yaxis_title='Power in MW',
         autosize=True
     )
     return forecast, fig
@@ -76,7 +76,7 @@ def model2(val):
     fig = px.line(forecast, x='ds', y='yhat', title='Forecasted Peak')
     fig.update_layout(
         xaxis_title='Time',
-        yaxis_title='Peak Power in MWH',
+        yaxis_title='Peak Power in MW',
         autosize=True
     )
     return forecast, fig
@@ -106,8 +106,9 @@ def model3():
 def model4(val):
     _, img1 = model1(val)
     _, img2 = model2(val)
-    img1.write_image(cur+'/static/images/'+str(val)+'file1.png',format='png',engine='kaleido')
-    img2.write_image(cur+'/static/images/'+str(val)+'file2.png',format='png',engine='kaleido')
+    img1_json = pio.to_json(img1)
+    img2_json = pio.to_json(img2)
+    return img1_json, img2_json
 # forecast1, fig1 = model1(5)
 # forecast2, fig2 = model2(5)
 
