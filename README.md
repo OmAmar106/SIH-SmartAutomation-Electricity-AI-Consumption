@@ -1,6 +1,6 @@
 # SIH-SmartAutomation-Electricity-AI-Consumption
 
-This project is an ongoing project aimed at utilizing AI and automation to monitor and predict electricity consumption in a smart and efficient manner. - Team NEOM
+This project is aimed at utilizing AI and automation to monitor and predict electricity consumption in a smart and efficient manner. - Team NEOM
 
 ## Table of Contents
 
